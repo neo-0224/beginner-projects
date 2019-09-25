@@ -57,6 +57,7 @@ Feel free to join us on our [Gitter channel](https://gitter.im/beginner-projects
 - [Pomodoro Timer](#Pomodoro-Timer)
 - [Scarne's Dice](#scarnes-dice)
 - [GoogleCase](#GoogleCase)
+- [Chess](#ChessGame)
 
 ## Projects
 
@@ -405,6 +406,12 @@ Turn-based dice game where players score points by rolling a die and then: if th
 
 Hint: If you are dealing with languages such as ***c*** then consider the sentences as the char array.
 
+### ChessGame
+
+- Chess is a game as old as time, and has always followed the same rules (deviations aside). The logic of chess, however, matches up very nicely with the same logic you would use to program a game. Additionally, Chess makes for a fantastic starter piece—pun intended—towards a programming career.
+- You’ll start by mapping out both your board and your pieces. Then, you’ll go on to giving specific movements for your pieces. From brainstorm to final product, you’ll be forced to think of chess as less of a physical game and more of data-driven mental gymnastic! Click on the video above to begin learning how to maneuver your way through creating your very own chess program (and how to modify it to create your own version of chess).
+
+
 ## Solutions
 - [aekanshd](https://github.com/aekanshd/beginner-projects/tree/master/solutions/python)
 - [Everstalk](https://github.com/Everstalk/BP)
@@ -444,7 +451,7 @@ Hint: If you are dealing with languages such as ***c*** then consider the senten
 - [vpatyal](https://github.com/vpatyal/beginner-projects-solutions)
 - [zamerman](https://github.com/zamerman/beginner-projects-solutions)
 - [karthik](https://github.com/chkarthik257/beginner-project-solutions)
-- [sanveg-rane](https://github.com/sanveg-rane-13/begineer-project-solutions)
+- [sanveg-rane](https://github.com/sanveg-rane-13/begineer-project-solutions
 
 ## Contributing
 Contributing to this repository in any way is encouraged.
