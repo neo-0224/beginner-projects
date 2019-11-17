@@ -26,6 +26,7 @@ Feel free to join us on our [Gitter channel](https://gitter.im/beginner-projects
 ## Project List
 *Projects are somewhat ordered by increasing difficulty.*
 - [99 Bottles](#99-bottles)
+- [Armstrong Number](#Armstrong-Number)
 - [Magic 8 Ball](#magic-8-ball)
 - [Pythagorean Triples Checker](#pythagorean-triples-checker)
 - [Rock Paper Scissors Game](#rock-paper-scissors-game)
@@ -39,6 +40,7 @@ Feel free to join us on our [Gitter channel](https://gitter.im/beginner-projects
 - [Base Jumper](#base-jumper)
 - [Hangman Game](#hangman-game)
 - [Menu Calculator](#menu-calculator)
+- [Seat Reservation](#seat-reservation)
 - [Dice Rolling Simulator](#dice-rolling-simulator)
 - [Count and Fix Green Eggs and Ham](#count-and-fix-green-eggs-and-ham)
 - [What's My Number?](#whats-my-number)
@@ -58,6 +60,9 @@ Feel free to join us on our [Gitter channel](https://gitter.im/beginner-projects
 - [Scarne's Dice](#scarnes-dice)
 - [GoogleCase](#GoogleCase)
 - [Chess](#ChessGame)
+- [Movie of the day](#movie-of-the-day)
+- [Website Scraper / Analyzer](#website-scraper--analyzer)
+
 
 ## Projects
 
@@ -66,6 +71,14 @@ Feel free to join us on our [Gitter channel](https://gitter.im/beginner-projects
 - Do not use a list for all of the numbers, and do not manually type them all in. Use a built in function instead.
 - Besides the phrase "take one down," you may not type in any numbers/names of numbers directly into your song lyrics.
 - Remember, when you reach 1 bottle left, the word "bottles" becomes singular.
+
+### Armstrong Number
+- Learn about armstrong numbers [here](https://en.wikipedia.org/wiki/Narcissistic_number).
+- Define a function that allows the user to check whether a given number is armstrong number or not.
+- Hint: To do this, first determine the number of digits of the given number. Call that n. Then take every digit in the number and raise it to the nth power. Add them, and if your answer is the original number then it is an Armstrong number.
+- Example: Take 1634. Four digits. So, 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634. So 1634 is an Armstrong number.
+- Tip: All single digit numbers are Armstrong numbers.
+
 
 ### Magic 8 Ball
 - Simulate a magic 8-ball.
@@ -195,6 +208,17 @@ To quickly take orders, your program should allow the user to type in a string o
   - If you decide to, print out the items and prices every time before the user types in an order.
   - Once the user has entered an order, print out how many of each item have been ordered, as well as the total price.
   - If an item was not ordered at all, then it should not show up.
+
+### Seat Reservation
+If you've ever been in a concert, you are aware that you buy tickets to be able to reserve a seat inside a stadium. The seat you will be on will have a specific number or code that would enable you to know exactly how far or how close you are to the stage. 
+
+Note: if you are kind of uncomfortable with lists, here's a [reference](https://www.w3schools.com/python/python_lists.asp) to get you started. 
+
+- Create a simple seat reservation program
+- Create a list that would store dashes '-' as a symbol that the seat is still available to take.
+- Define a function that would loop over the list and print out the seats horizontally or in a 3 x 3 position. Refer to [this](https://image.shutterstock.com/image-vector/stadium-chairs-vector-icon-arenabench-260nw-1056480272.jpg) image for reference.
+- Define a second function that would check if the seats are occupied. This should check if the list contains "X" in each element, which is the symbol that we will use if the seat is taken that you will store in a variable. If the variable is equal to 9 (the total number of seats), return True (and break from the loop), and False if not.
+- Create a loop that would have to (1) ask the user for the number of seat he would want to reserve, (2) print out the chairs, (3) check if all the seats are occupied and (4) ask the user now if he/she wants to reserve again.
 
 ### Dice Rolling Simulator
 By using the random module, Python can do things like pseudo-random number generation.
@@ -412,6 +436,28 @@ Hint: If you are dealing with languages such as ***c*** then consider the senten
 - You’ll start by mapping out both your board and your pieces. Then, you’ll go on to giving specific movements for your pieces. From brainstorm to final product, you’ll be forced to think of chess as less of a physical game and more of data-driven mental gymnastic! Click on the video above to begin learning how to maneuver your way through creating your very own chess program (and how to modify it to create your own version of chess).
 
 
+### Movie of the day
+
+- The app makes use of [OMDb REST API](https://www.omdbapi.com/) in order to fetch a random movie
+- Every time the user opens the app, the API gets queried in order to fetch the random movie
+- The app can also store (in the browser cache or the phone local storage) which movies have already been
+shown to the user so that it can exclude them from the recommendation sub-system.
+
+
+### Website Scraper / Analyzer 
+
+- Make an app that scrapes the content of a website (it's produced HTML code)
+- The app can then check for the absence of important HTML tags for SEO,
+missing alt tags on images, and whether the page has SEO meta tags
+- The app can be made in various languages that support web scraping (or have a library to
+do so), like Python and Java.
+- Then the app can give/subtract points and create an overall score.
+- You will learn: 
+    - How a web scraper works
+    - How to traverse the HTML DOM and select elements
+    - What are the important SEO tags and techniques in a web page
+    
+
 ## Solutions
 - [aekanshd](https://github.com/aekanshd/beginner-projects/tree/master/solutions/python)
 - [Everstalk](https://github.com/Everstalk/BP)
@@ -452,6 +498,17 @@ Hint: If you are dealing with languages such as ***c*** then consider the senten
 - [zamerman](https://github.com/zamerman/beginner-projects-solutions)
 - [karthik](https://github.com/chkarthik257/beginner-project-solutions)
 - [sanveg-rane](https://github.com/sanveg-rane-13/begineer-project-solutions
+- [sanveg-rane](https://github.com/sanveg-rane-13/begineer-project-solutions)
+- [Ankit-Gupta](https://github.com/i-ankit25/begineer-project-solutions)
+- [vishaldhull09](https://github.com/vishaldhull09/beginner-project-solution)
+- [vishaldhull09](https://github.com/vishaldhull09/beginner-project-solution)
+- [007vedant](https://github.com/007vedant/beginner-project-solutions)
+- [mgokayb](https://github.com/mgokayb/beginnerpythonprojects)
+- [anil-goudar](https://github.com/anil-goudar/beginner-project-solutions.git)
+- [breindy](https://github.com/breindy/99bottles-soln)
+- [marsmccrann04](https://github.com/marsmccrann04/beginner-project-solutions)
+- [sankarsh98](https://github.com/sankarsh98/beginner-project-solutions)
+- [SiddhantJain15](https://github.com/SiddhantJain15/beginner-projects-solutions)
 
 ## Contributing
 Contributing to this repository in any way is encouraged.
